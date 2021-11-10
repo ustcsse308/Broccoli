@@ -1,0 +1,18 @@
+[tool.poetry]
+authors = ["Zac Bi <zacb2018@mail.ustc.edu.cn>"]
+description = "Template for Python project."
+license = "MIT"
+name = "Broccoli"
+readme = "README.md"
+repository = "https://github.com/ustcsse308/Broccoli"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
